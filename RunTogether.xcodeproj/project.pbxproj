@@ -16,6 +16,19 @@
 		67D8D3F52C20A76C00B51BE1 /* RunTogetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D3F42C20A76C00B51BE1 /* RunTogetherTests.swift */; };
 		67D8D3FF2C20A76C00B51BE1 /* RunTogetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D3FE2C20A76C00B51BE1 /* RunTogetherUITests.swift */; };
 		67D8D4012C20A76C00B51BE1 /* RunTogetherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D4002C20A76C00B51BE1 /* RunTogetherUITestsLaunchTests.swift */; };
+		67D8D40F2C20AA6800B51BE1 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 67D8D40E2C20AA6800B51BE1 /* RxCocoa */; };
+		67D8D4112C20AA6800B51BE1 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 67D8D4102C20AA6800B51BE1 /* RxSwift */; };
+		67D8D4142C20AA9500B51BE1 /* RxFlow in Frameworks */ = {isa = PBXBuildFile; productRef = 67D8D4132C20AA9500B51BE1 /* RxFlow */; };
+		67D8D4172C20AC9B00B51BE1 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D4162C20AC9B00B51BE1 /* AppFlow.swift */; };
+		67D8D41B2C20AF8D00B51BE1 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 67D8D41A2C20AF8D00B51BE1 /* RxRelay */; };
+		67D8D41D2C20B04F00B51BE1 /* HomeFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D41C2C20B04F00B51BE1 /* HomeFlow.swift */; };
+		67D8D41F2C20B05A00B51BE1 /* SettingsFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D41E2C20B05A00B51BE1 /* SettingsFlow.swift */; };
+		67D8D4212C20B06800B51BE1 /* HistoryFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D4202C20B06800B51BE1 /* HistoryFlow.swift */; };
+		67D8D4232C20B63A00B51BE1 /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D4222C20B63A00B51BE1 /* LoginFlow.swift */; };
+		67D8D4262C20B6E000B51BE1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D4252C20B6E000B51BE1 /* HomeViewController.swift */; };
+		67D8D4282C20B72500B51BE1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D4272C20B72500B51BE1 /* SettingsViewController.swift */; };
+		67D8D42D2C20B74F00B51BE1 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D42C2C20B74F00B51BE1 /* HistoryViewController.swift */; };
+		67D8D4302C20C17600B51BE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D42F2C20C17600B51BE1 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,15 @@
 		67D8D3FA2C20A76C00B51BE1 /* RunTogetherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTogetherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D8D3FE2C20A76C00B51BE1 /* RunTogetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTogetherUITests.swift; sourceTree = "<group>"; };
 		67D8D4002C20A76C00B51BE1 /* RunTogetherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTogetherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67D8D4162C20AC9B00B51BE1 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		67D8D41C2C20B04F00B51BE1 /* HomeFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFlow.swift; sourceTree = "<group>"; };
+		67D8D41E2C20B05A00B51BE1 /* SettingsFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFlow.swift; sourceTree = "<group>"; };
+		67D8D4202C20B06800B51BE1 /* HistoryFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryFlow.swift; sourceTree = "<group>"; };
+		67D8D4222C20B63A00B51BE1 /* LoginFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFlow.swift; sourceTree = "<group>"; };
+		67D8D4252C20B6E000B51BE1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		67D8D4272C20B72500B51BE1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		67D8D42C2C20B74F00B51BE1 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		67D8D42F2C20C17600B51BE1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D8D4142C20AA9500B51BE1 /* RxFlow in Frameworks */,
+				67D8D4112C20AA6800B51BE1 /* RxSwift in Frameworks */,
+				67D8D41B2C20AF8D00B51BE1 /* RxRelay in Frameworks */,
+				67D8D40F2C20AA6800B51BE1 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +125,8 @@
 		67D8D3DC2C20A76A00B51BE1 /* RunTogether */ = {
 			isa = PBXGroup;
 			children = (
+				67D8D4242C20B67B00B51BE1 /* Presentation */,
+				67D8D4152C20AC8800B51BE1 /* Flow */,
 				67D8D3DD2C20A76A00B51BE1 /* AppDelegate.swift */,
 				67D8D3DF2C20A76A00B51BE1 /* SceneDelegate.swift */,
 				67D8D3E12C20A76A00B51BE1 /* ViewController.swift */,
@@ -127,6 +155,61 @@
 			path = RunTogetherUITests;
 			sourceTree = "<group>";
 		};
+		67D8D4152C20AC8800B51BE1 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				67D8D4162C20AC9B00B51BE1 /* AppFlow.swift */,
+				67D8D41C2C20B04F00B51BE1 /* HomeFlow.swift */,
+				67D8D41E2C20B05A00B51BE1 /* SettingsFlow.swift */,
+				67D8D4202C20B06800B51BE1 /* HistoryFlow.swift */,
+				67D8D4222C20B63A00B51BE1 /* LoginFlow.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		67D8D4242C20B67B00B51BE1 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				67D8D42E2C20C16000B51BE1 /* Login */,
+				67D8D4292C20B72E00B51BE1 /* Home */,
+				67D8D42B2C20B73D00B51BE1 /* History */,
+				67D8D42A2C20B73500B51BE1 /* Settings */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		67D8D4292C20B72E00B51BE1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				67D8D4252C20B6E000B51BE1 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		67D8D42A2C20B73500B51BE1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				67D8D4272C20B72500B51BE1 /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		67D8D42B2C20B73D00B51BE1 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				67D8D42C2C20B74F00B51BE1 /* HistoryViewController.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		67D8D42E2C20C16000B51BE1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				67D8D42F2C20C17600B51BE1 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +226,12 @@
 			dependencies = (
 			);
 			name = RunTogether;
+			packageProductDependencies = (
+				67D8D40E2C20AA6800B51BE1 /* RxCocoa */,
+				67D8D4102C20AA6800B51BE1 /* RxSwift */,
+				67D8D4132C20AA9500B51BE1 /* RxFlow */,
+				67D8D41A2C20AF8D00B51BE1 /* RxRelay */,
+			);
 			productName = RunTogether;
 			productReference = 67D8D3DA2C20A76A00B51BE1 /* RunTogether.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +304,10 @@
 				Base,
 			);
 			mainGroup = 67D8D3D12C20A76A00B51BE1;
+			packageReferences = (
+				67D8D40D2C20AA6800B51BE1 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				67D8D4122C20AA9500B51BE1 /* XCRemoteSwiftPackageReference "RxFlow" */,
+			);
 			productRefGroup = 67D8D3DB2C20A76A00B51BE1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +351,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D8D4302C20C17600B51BE1 /* LoginViewController.swift in Sources */,
 				67D8D3E22C20A76A00B51BE1 /* ViewController.swift in Sources */,
+				67D8D4172C20AC9B00B51BE1 /* AppFlow.swift in Sources */,
+				67D8D41F2C20B05A00B51BE1 /* SettingsFlow.swift in Sources */,
+				67D8D4282C20B72500B51BE1 /* SettingsViewController.swift in Sources */,
+				67D8D4232C20B63A00B51BE1 /* LoginFlow.swift in Sources */,
+				67D8D42D2C20B74F00B51BE1 /* HistoryViewController.swift in Sources */,
+				67D8D41D2C20B04F00B51BE1 /* HomeFlow.swift in Sources */,
+				67D8D4262C20B6E000B51BE1 /* HomeViewController.swift in Sources */,
 				67D8D3DE2C20A76A00B51BE1 /* AppDelegate.swift in Sources */,
 				67D8D3E02C20A76A00B51BE1 /* SceneDelegate.swift in Sources */,
+				67D8D4212C20B06800B51BE1 /* HistoryFlow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -425,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -607,6 +709,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		67D8D40D2C20AA6800B51BE1 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+		67D8D4122C20AA9500B51BE1 /* XCRemoteSwiftPackageReference "RxFlow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxFlow";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67D8D40E2C20AA6800B51BE1 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67D8D40D2C20AA6800B51BE1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		67D8D4102C20AA6800B51BE1 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67D8D40D2C20AA6800B51BE1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		67D8D4132C20AA9500B51BE1 /* RxFlow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67D8D4122C20AA9500B51BE1 /* XCRemoteSwiftPackageReference "RxFlow" */;
+			productName = RxFlow;
+		};
+		67D8D41A2C20AF8D00B51BE1 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67D8D40D2C20AA6800B51BE1 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 67D8D3D22C20A76A00B51BE1 /* Project object */;
 }
