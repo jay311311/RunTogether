@@ -30,6 +30,9 @@
 		67D8D42D2C20B74F00B51BE1 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D42C2C20B74F00B51BE1 /* HistoryViewController.swift */; };
 		67D8D4302C20C17600B51BE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D42F2C20C17600B51BE1 /* LoginViewController.swift */; };
 		67D8D4332C20CE4800B51BE1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 67D8D4322C20CE4800B51BE1 /* SnapKit */; };
+		67D8D4352C21F16400B51BE1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D4342C21F16400B51BE1 /* HomeViewModel.swift */; };
+		67D8D4382C21F2FF00B51BE1 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D4372C21F2FF00B51BE1 /* Services.swift */; };
+		67D8D43B2C21F33000B51BE1 /* TimerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D8D43A2C21F33000B51BE1 /* TimerService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		67D8D4272C20B72500B51BE1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		67D8D42C2C20B74F00B51BE1 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		67D8D42F2C20C17600B51BE1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		67D8D4342C21F16400B51BE1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		67D8D4372C21F2FF00B51BE1 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		67D8D43A2C21F33000B51BE1 /* TimerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,7 @@
 		67D8D3DC2C20A76A00B51BE1 /* RunTogether */ = {
 			isa = PBXGroup;
 			children = (
+				67D8D4362C21F2B300B51BE1 /* Service */,
 				67D8D4242C20B67B00B51BE1 /* Presentation */,
 				67D8D4152C20AC8800B51BE1 /* Flow */,
 				67D8D3DD2C20A76A00B51BE1 /* AppDelegate.swift */,
@@ -184,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				67D8D4252C20B6E000B51BE1 /* HomeViewController.swift */,
+				67D8D4342C21F16400B51BE1 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -210,6 +218,15 @@
 				67D8D42F2C20C17600B51BE1 /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		67D8D4362C21F2B300B51BE1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				67D8D4372C21F2FF00B51BE1 /* Services.swift */,
+				67D8D43A2C21F33000B51BE1 /* TimerService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,14 +372,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67D8D4382C21F2FF00B51BE1 /* Services.swift in Sources */,
 				67D8D4302C20C17600B51BE1 /* LoginViewController.swift in Sources */,
 				67D8D3E22C20A76A00B51BE1 /* ViewController.swift in Sources */,
 				67D8D4172C20AC9B00B51BE1 /* AppFlow.swift in Sources */,
 				67D8D41F2C20B05A00B51BE1 /* SettingsFlow.swift in Sources */,
 				67D8D4282C20B72500B51BE1 /* SettingsViewController.swift in Sources */,
+				67D8D43B2C21F33000B51BE1 /* TimerService.swift in Sources */,
 				67D8D4232C20B63A00B51BE1 /* LoginFlow.swift in Sources */,
 				67D8D42D2C20B74F00B51BE1 /* HistoryViewController.swift in Sources */,
 				67D8D41D2C20B04F00B51BE1 /* HomeFlow.swift in Sources */,
+				67D8D4352C21F16400B51BE1 /* HomeViewModel.swift in Sources */,
 				67D8D4262C20B6E000B51BE1 /* HomeViewController.swift in Sources */,
 				67D8D3DE2C20A76A00B51BE1 /* AppDelegate.swift in Sources */,
 				67D8D3E02C20A76A00B51BE1 /* SceneDelegate.swift in Sources */,

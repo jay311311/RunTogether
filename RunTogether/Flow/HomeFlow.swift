@@ -30,7 +30,8 @@ class HomeFlow: Flow {
     }
     
     private func navigateToHomeScreen() -> FlowContributors {
-        let viewController = HomeViewController()
+        let viewModel = HomeViewModel(service: Services())
+        let viewController = HomeViewController(viewModel: viewModel)
         rootViewController.pushViewController(viewController, animated: false)
         return .one(flowContributor: .contribute(withNextPresentable: viewController, withNextStepper: viewController))
     }
